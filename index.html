@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiahao "Jerry" Cao</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+        html,
+        body {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            color: #3c3c3c;
+            scrollbar-width: 0;
+        }
+
+        ::selection {
+            background-color: #cccccccc;
+        }
+
+        p {
+            font-size: 1.25em;
+        }
+
+        .hd {
+            padding: 0.5vh;
+            display: flex;
+            flex-direction: row;
+            background-color: #eeeeee;
+            font-size: 1.5em;
+        }
+
+        .hd a {
+            padding: 0.5vh;
+            text-decoration: none;
+            color: inherit;
+            transition-duration: 500ms;
+        }
+
+        .hd a:hover {
+            color: #000000
+        }
+
+        .main {
+            padding: 1vh;
+        }
+
+        .main img {
+            width: 15%;
+        }
+
+        .main h2,
+        h3,
+        p {
+            margin: 1vh 0;
+        }
+
+        .main h2 {
+            font-size: 2em;
+        }
+
+        .main h3 {
+            font-size: 1.5em;
+        }
+
+        .info {
+            display: flex;
+        }
+
+        .info h2 {
+            font-weight: 400;
+            font-style: italic;
+            margin: 0 0 0 1vh;
+            font-size: 1.5em;
+        }
+
+        .info a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .element {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: justify;
+        }
+
+        .element img {
+            width: 30%;
+            margin-left: 1vh;
+        }
+
+        .element h3 {
+            text-align: left;
+        }
+
+        .element article {
+            width: calc(25% - 2.5vh);
+            margin: 0 1vh;
+        }
+
+        .l {
+            background-color: #eeeeeeaa;
+        }
+
+        .i {
+            background-color: #eeeeeecc;
+        }
+
+        .a {
+            background-color: #eeeeeeee;
+        }
+
+        @media screen and (max-width: 1000px) {
+            .hd {
+                width: 20%;
+                flex-direction: column;
+                font-size: 1em;
+                float: left;
+            }
+
+            .hd a {
+                margin: 5% 0;
+            }
+
+            .main {
+                width: calc(80vw - 3vh);
+                float: right;
+            }
+
+            .main img {
+                width: 100%;
+            }
+
+            .main h2 {
+                font-size: 1.5em;
+            }
+
+            .main h3 {
+                font-size: 1em;
+            }
+
+            .info {
+                flex-direction: column;
+            }
+
+            .info h2 {
+                display: none;
+            }
+
+            .main p {
+                font-size: 0.75em;
+            }
+
+            .element {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .element p {
+                margin-right: 2vh;
+            }
+
+            .element article {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hd">
+        <a href="https://github.com/JerryCaojh"><i>Jerry Cao</i></a>
+        <a style="color:#000000; background-color: #cccccccc;">About Me</a>
+        <a href="../ace">African Community Education</a>
+        <a href="../rebooting-future">Rebooting Future</a>
+        <a href="../portfolio">Portfolio</a>
+    </div>
+    <div class="main">
+        <div class="info">
+            <img srcset="pic-cropped.jpg">
+            <div>
+                <h2 style="font-weight: 700;"><a href="#l">Jerry Cao at Rectory School</a></h2>
+                <h2><a href="#l-vp">Student Council Vice President</a></h2>
+                <h2><a href="#l-dp">Dorm Proctor</a></h2>
+                <h2><a href="#l-hw">Head Waiter</a></h2>
+                <h2><a href="#l-aa">Admission Ambassador</a></h2>
+                <h2 style="font-style: inherit;">John Hazen White Sr. Cup Recipient</h2>
+            </div>
+            <div>
+                <h2 style="font-weight: 700;"><a href="#i">Interests</a></h2>
+                <h2><a href="#i-po">Poetry</a></h2>
+                <h2><a href="#i-vi">Violin</a></h2>
+                <h2><a href="#i-ph">Photography</a></h2>
+            </div>
+            <div>
+                <h2 style="font-weight: 700;"><a href="#a">Athletics</a></h2>
+                <h2><a href="#a-xc">Cross Country</a></h2>
+                <h2><a href="#a-ff">Foil Fencing</a></h2>
+                <h2><a href="#a-go">Golf</a></h2>
+            </div>
+        </div>
+        <div class="detail">
+            <h2 id="l">Student Leadership</h2>
+            <div class="element l">
+                <article>
+                    <h3 id="l-vp">Student Council Vice President</h3>
+                    <p>Elected by my peers, I participate in the Student Council as the Vice President. Meeting each
+                        Thursday in the fall and spring term and every Monday in the winter term, we engage ourselves to
+                        build towards our community. We had organized the Rectory's First Annual Talent Show. Planning
+                        to host the dance in February, we came up with dress down ideas that celebrate school spirt.
+                    </p>
+                </article>
+                <article>
+                    <h3 id="l-dp">Dorm Proctor</h3>
+                    <p>Setting an example by my actions, I as a dorm proctor guide and support everyone. Frequently
+                        collaboration with my partner and dorm parents, I would always be an option avalible to offer
+                        help. </p>
+                </article>
+                <article>
+                    <h3 id="l-hw">Head Waiter</h3>
+                    <p>Starting in spring term in 2022-23, I go to dinning hall at 5:30 for student waiters. Serving 3
+                        tables on my first day, I extend my mastering by serving up to 5 tables. I explored different
+                        ways to format the table and invented a method to fold napkins quickly and easily to decorate.
+                        Chosen to become one of three Head Waiters, I coordinate with the Administrator on Duty, dinning
+                        hall staffs, and student waiters. We together created the shadow program to engage more
+                        participation and more experience. </p>
+                </article>
+                <article>
+                    <h3 id="l-aa">Admission Ambassador</h3>
+                    <p>As an Admission Ambassador, I tour prospective students and participate in the Student Panel.
+                        More than introducing them with a deeper perspective, </p>
+                </article>
+            </div>
+            <h2 id="i">Interests</h2>
+            <div class="element i">
+                <article>
+                    <h3 id="i-po">Poetry</h3>
+                    <p>Improving on my literature expressions through poetry, I explore myself in both reading and
+                        creating poetry. Finding the conciseness and beauty within, I experiment with language to
+                        illustrate a snapshot or an eloquently-detailed painting.</p>
+                </article>
+                <article>
+                    <h3 id="i-vi">Violin</h3>
+                    <p>Being a violinist for nine years, I participate in Rectory Orchestra and a student-led chamber
+                        group member. As a profound member in both organization, I focus on collaboration and enriching
+                        musical textures. </p>
+                </article>
+                <article>
+                    <h3 id="i-ph">Photography</h3>
+                    <p>By learning every details of film photography, I was motivated to join Photography Elective.
+                        After having deeping understanding of lighting, developing, and framing, I enhanced my interest
+                        to an accessible tool, phone. Using both pre-installed pro mode in phone and black and white
+                        film, I use hues and contrasts as compositions to my emotions. </p>
+                </article>
+            </div>
+            <h2 id="a">Athletics</h2>
+            <div class="element a">
+                <article>
+                    <h3 id="a-xc">Cross Country</h3>
+                    <p>After fighting with my allegies, I performed a great season in Cross Country. Improving from 15
+                        minutes for 1.5 miles to 14:28 for 2.1 miles, I put in dedication and effort to push myself
+                        everytime. </p>
+                </article>
+                <article>
+                    <h3 id="a-ff">Foil Fencing</h3>
+                    <p>Trying out for foil fencing for last winter, I pushed myself to the best. Winning most of my
+                        bouts, I practiced to fence with left-handed and strengthened myself. After awarded for the Most
+                        Improved Player, I was elected as the Captain for the following season. Leading the team and
+                        cheering everyone up, I encourage others and pursuit improvements. </p>
+                </article>
+                <article>
+                    <h3 id="a-go">Golf</h3>
+                    <p>Golfing is such an interesting sport that allows you to determined to react to different
+                        situations. Training my performance under each condition, I improved Gold over the last spring
+                        and look forward to it. </p>
+                </article </div>
+            </div>
+        </div>
+</body>
+
+</html>
